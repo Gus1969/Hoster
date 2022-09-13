@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant SC", serif !important;
+  background-color: rgba(245, 245, 245, 0.747);
+}
+
+.btn a {
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px;
+  color: white;
+  background-image: linear-gradient(to right, rgba(255, 166, 0), pink);
+  text-transform: lowercase;
+  font-size: 12px;
+}
+.buttons {
+  padding: 0 20px;
+  margin-right: 10px;
+}
+.sign-in {
+  font-size: 17px;
+  text-decoration: none;
+  color: gray;
+  margin-right: 10px;
+}
