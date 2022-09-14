@@ -79,6 +79,7 @@ footer {
 }
 footer .social {
   align-items: center;
+  width: 100%;
 }
 
 footer .social a {
@@ -104,4 +105,220 @@ footer .chat {
 .contact h3 {
   font-size: 20px;
   line-height: 0.8rem;
+}
+@media (max-width: 550px) {
+  .fila {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .texto {
+    order: 2;
+    margin-top: 50px;
+  }
+  .father {
+    display: flex;
+    order: 1;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+  .model,
+  .blue,
+  .pink,
+  .purple {
+    width: 250px;
+    height: 317px;
+  }
+  .btn a {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(255, 166, 0), pink);
+    text-transform: lowercase;
+    font-size: 12px;
+  }
+  .buttons {
+    padding: 0 20px;
+    margin-right: 10px;
+  }
+  .send {
+    font-size: 12px;
+  }
+  .sign-in {
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+  }
+
+  main H1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  main p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding-top: 10px;
+  }
+  form > input {
+    text-indent: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #fff;
+  }
+  form button {
+    width: 100%;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    height: 100%;
+  }
+  footer .social {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  footer.social a {
+    font-size: 11px;
+  }
+
+  footer .chat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .chat img {
+    margin-right: 10px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact h3 {
+    font-size: 16px;
+    line-height: 0.8rem;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 998px) {
+  body {
+    overflow: hidden;
+  }
+  nav {
+    height: 40px;
+  }
+  .fila {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .texto {
+    order: 2;
+    margin-top: 100px;
+    padding: 30px 30px;
+  }
+  .father {
+    display: flex;
+    order: 1;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 20px 0;
+  }
+  .model,
+  .blue,
+  .pink,
+  .purple {
+    width: 250px;
+    height: 317px;
+  }
+  .btn a {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(255, 166, 0), pink);
+    text-transform: lowercase;
+    font-size: 12px;
+  }
+  .buttons {
+    padding: 0 20px;
+    margin-right: 10px;
+  }
+  .send {
+    font-size: 12px;
+  }
+  .sign-in {
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+  }
+
+  main H1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  main p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  form > input {
+    text-indent: 10px;
+    border: none;
+    outline: none;
+    width: 70%;
+    background-color: #fff;
+  }
+
+  footer .social {
+    align-items: center;
+  }
+  footer {
+    margin-top: 20px;
+  }
+
+  footer .social a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: gray;
+    font-size: 19px;
+    margin-left: 0;
+  }
+  footer .chat {
+    padding: 0 70px;
+    width: 100%;
+  }
+  .chat img {
+    margin-right: 10px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact h3 {
+    font-size: 20px;
+    line-height: 0.8rem;
+  }
 }
