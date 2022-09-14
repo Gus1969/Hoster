@@ -77,6 +77,11 @@ form > input {
 footer {
   margin-top: 200px;
 }
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
 footer .social {
   align-items: center;
   width: 100%;
@@ -91,6 +96,7 @@ footer .social a {
 }
 footer .chat {
   padding: 0 10px;
+  width: 100%;
 }
 .chat img {
   margin-right: 20px;
